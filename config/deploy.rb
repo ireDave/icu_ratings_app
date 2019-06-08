@@ -1,8 +1,8 @@
 server '34.245.155.123', port: 22, roles: [:web, :app, :db], primary: true
 
-set :application, "icu_ratings_app"
+set :application, "ratings"
 
-set :repo_url, "git@github.com:ireDave/ratings.git"
+set :repo_url, "git@github.com:ireDave/icu_ratings_app.git"
 set :branch, "rvm_nginx_puma_rds"
 set :user, "deploy"
 set :puma_threads,    [4, 16]
