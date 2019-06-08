@@ -273,6 +273,7 @@ DEPENDENCIES
   launchy
   mysql2
   nokogiri
+  puma
   rack-mini-profiler
   rails (= 4.2.5)
   redcarpet
