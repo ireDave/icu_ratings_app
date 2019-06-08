@@ -22,7 +22,12 @@ gem "uglifier"
 gem "jbuilder"
 
 group :development do
-  gem "capistrano-rails", "~> 1.1"
+  gem 'capistrano',         require: false
+  gem 'capistrano-rvm',     require: false
+  gem 'capistrano-rails',   require: false
+  gem 'capistrano-bundler', require: false
+  gem 'capistrano3-puma',   require: false
+  gem 'capistrano-nvm',     require: false
   # Include capistrano-ssh-doctor to check for ssh errors running capistrano
   # gem 'capistrano-ssh-doctor', '~> 1.0'
   gem "wirble"
